@@ -2,7 +2,7 @@
 
 ### **Lightweight Network with Feature Fusion Branchand Local Attention Block for Facial Expression Recognition**
 
-![overall](.static\overall.jpg)
+![overall](./static/overall.jpg)
 
 A PyTorch implementation of the [EMO-Net](), pre-trained models are available in checkpoint.
 
@@ -10,7 +10,7 @@ ___
 
 **Local Attention Block -- Efficient Channel Attention**
 
-![ECA](D:\study\班导任务\论文\FER\EMO-Net\static\ECA.jpg)
+![ECA](./static/ECA.jpg)
 
 ​			 The architecture of the ECA mechanism used in the inverted residual structure, where GAP denotes global average pooling and σ denotes the Sigmoid function.
 
@@ -18,13 +18,13 @@ ___
 
 **Feature Fusion Branch**
 
-![fusion_branch](.static\fusion_branch.jpg)
+![fusion_branch](./static/fusion_branch.jpg)
 
 ​				Feature fusion branch is utilized in the inverted residual structure. Main branch is the feature extractor which combines with auxiliary branch with shallow geometry feature. DW 3x3 denotes a depth-separable convolution, and ⊕ denotes a summary of two branchs.
 
 ****
 
-![fusion](.static\fusion.jpg)
+![fusion](./static/fusion.jpg)
 
 ​					The architecture of the two fusion branches in the inverted residual structure, including the main branch (feature extractor and local attention module) and the auxiliary branch
 
