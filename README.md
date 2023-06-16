@@ -12,7 +12,7 @@ ___
 
 ![ECA](./static/ECA.jpg)
 
-			 The architecture of the ECA mechanism used in the inverted residual structure, where GAP denotes global average pooling and σ denotes the Sigmoid function.
+The architecture of the ECA mechanism used in the inverted residual structure, where GAP denotes global average pooling and σ denotes the Sigmoid function.
 
 ___
 
@@ -20,13 +20,13 @@ ___
 
 ![fusion_branch](./static/fusion_branch.jpg)
 
-				Feature fusion branch is utilized in the inverted residual structure. Main branch is the feature extractor which combines with auxiliary branch with shallow geometry feature. DW 3x3 denotes a depth-separable convolution, and ⊕ denotes a summary of two branchs.
+Feature fusion branch is utilized in the inverted residual structure. Main branch is the feature extractor which combines with auxiliary branch with shallow geometry feature. DW 3x3 denotes a depth-separable convolution, and ⊕ denotes a summary of two branchs.
 
 ****
 
 ![fusion](./static/fusion.jpg)
 
-					The architecture of the two fusion branches in the inverted residual structure, including the main branch (feature extractor and local attention module) and the auxiliary branch
+The architecture of the two fusion branches in the inverted residual structure, including the main branch (feature extractor and local attention module) and the auxiliary branch
 
 ### **Requirements**
 
@@ -72,7 +72,7 @@ ___
 
 ### **Experiments**
 
-								 **Comparison with state-of-the-art methods on RAF-DB**
+**Comparison with state-of-the-art methods on RAF-DB**
 
 |                            Method                            | Parms. (M) | FLOPs. (G) |        Acc.(%)        |
 | :----------------------------------------------------------: | :--------: | :--------: | :-------------------: |
@@ -86,7 +86,7 @@ ___
 | [EAC](https://github.com/zyh-uaiaaaa/Erasing-Attention-Consistency) |   25.55    |    4.13    |         90.35         |
 |                         [EMO-Net]()                          |    2.31    |    0.34    | [91.30](./checkpoint) |
 
-										**Comparison with state-of-the-art methods on AffectNet-7**
+**Comparison with state-of-the-art methods on AffectNet-7**
 
 |                            Method                            |      Backbone      |          Acc.(%)          |
 | :----------------------------------------------------------: | :----------------: | :-----------------------: |
@@ -98,7 +98,7 @@ ___
 | [EfficientNet-B0](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet) |    EfficientNet    |           64.32           |
 |                         [EMO-Net]()                          |    MobileNet-V2    | **[65.46](./checkpoint)** |
 
-								**Comparison with state-of-the-art methods on AffectNet-8**
+**Comparison with state-of-the-art methods on AffectNet-8**
 
 |                            Method                            |      Backbone      |          Acc.(%)          |
 | :----------------------------------------------------------: | :----------------: | :-----------------------: |
