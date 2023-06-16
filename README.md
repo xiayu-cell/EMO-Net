@@ -63,9 +63,9 @@ ___
 
 | Dataset     | accuracy (%) | λ    | weigth.pth                   |
 | ----------- | ------------ | ---- | ---------------------------- |
-| RAFDB       | 91.30        | 0.5  | RAFDB_a_0.5_0.913.pth        |
-| RAFDB       | 91.52        | 0.6  | rafdb_a_0.6_0.915.pth        |
-| AffectNet-7 | 65.456       | 0.6  | affectNet7_a_0.6_0.65457.pth |
-| AffectNet-8 | 62.08        | 0.6  | affectNet8_a_0.6_0.6208.pth  |
+| RAFDB       | 91.30        | 0.5  | [RAFDB_a_0.5_0.913.pth](./checkpoint)        |
+| RAFDB       | 91.52        | 0.6  | [rafdb_a_0.6_0.915.pth](./checkpoint)        |
+| AffectNet-7 | 65.456       | 0.6  | [affectNet7_a_0.6_0.65457.pth](./checkpoint) |
+| AffectNet-8 | 62.08        | 0.6  | [affectNet8_a_0.6_0.6208.pth](./checkpoint)  |
 
 
