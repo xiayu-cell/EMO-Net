@@ -10,7 +10,7 @@ ___
 
 ### **Local Attention Block -- Efficient Channel Attention**
 
-![ECA](D:\study\班导任务\论文\FER\EMO-Net\static\ECA.jpg)
+![ECA](./static/ECA.jpg)
 
 ​			 The architecture of the ECA mechanism used in the inverted residual structure, where GAP denotes global average pooling and σ denotes the Sigmoid function.
 
