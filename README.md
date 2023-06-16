@@ -1,6 +1,6 @@
 # EMO-Net
 
-## **Lightweight Network with Feature Fusion Branchand Local Attention Block for Facial Expression Recognition**
+## **EMO-Net: Lightweight Network for Robust Facial Expression Recognition in Real-Word Scenarios**
 
 ![overall](./static/overall.jpg)
 
